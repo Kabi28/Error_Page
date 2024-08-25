@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+}
+main{
+    height: 75vh;
+    font-family: "Space Mono", monospace;
+    padding: 4rem;
+}
+.img-wrapper{
+    display: inline-block;
+    width: 39%;
+    margin-left: 10px;
+}
+.text-wrapper{
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    padding-left: 30px;
+
+}
+
+header h2{
+    font-family: "Inconsolata", monospace;
+    text-transform: uppercase;
+    padding-top: 2.5rem;
+    margin-left: 4rem;
+}
+
+header{
+    height: 15vh;
+}
+.img-wrapper img{
+    width: 70%;
+    float: right;
+    padding-right: 30px;
+}
+.text-wrapper h1{
+    font-size: 45px;
+    color: #333333;
+    font-weight: 800;
+}
+.text-wrapper p{
+    padding-top: 50px;
+    line-height: 2;
+    letter-spacing: 1.5;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.text-wrapper a {
+    text-decoration: none;
+    background-color: black;
+    color: #b3b0b0;
+    padding: 10px;
+    font-size: 13px;
+
+}
+footer{
+    height: 10vh;
+    text-align: center;
+    color: #8b8989;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    
+}
